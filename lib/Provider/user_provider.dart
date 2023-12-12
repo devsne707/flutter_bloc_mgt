@@ -9,6 +9,4 @@ class UserProvider extends  ChangeNotifier {
     getUserList = await services.getUsers();
     notifyListeners();
   }
-
-  
 }
